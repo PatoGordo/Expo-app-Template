@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "PatoGordo App",
+    "slug": "patogordo-app",
+    "version": "0.0.1",
+    "orientation": "portrait",
+    "scheme": "dev.patogordo.app",
+    "icon": "./assets/images/icon.png",
+    "userInterfaceStyle": "automatic",
+    "notification": {
+      "icon": "./assets/images/adaptive-icon.png"
+    },
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#dedede"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "dev.patogordo.app",
+      "buildNumber": "1"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "dev.patogordo.app",
+      "versionCode": 1
+    },
+    "web": {
+      "favicon": "./assets/images/favicon.png",
+      "bundler": "metro"
+    },
+    "extra": {
+      "eas": {
+        "projectId": ""
+      }
+    }
+  }
+}
